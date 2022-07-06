@@ -96,7 +96,7 @@ export default function Inscricao() {
           </form>
         </div>
       </div>
-      <img src="/src/assets/code-mockup.png" alt="Code" className="mt-10" />
+      <img src="/assets/img/code-mockup.png" alt="Code" className="mt-10" />
     </div>
   );
 }

@@ -9,6 +9,7 @@ import React from "react";
 import ButtonLink from "./ButtonLink";
 import "@vime/core/themes/default.css";
 import { useGetQueryBySlugQuery } from "../graphql/generated";
+import Spinner from "./Spinner";
 
 // import { Container } from './styles';
 
@@ -24,7 +25,7 @@ const Video = ({ lessonSlug }: VideoProps) => {
   if (!data || !data.lesson) {
     return (
       <div className="flex-1">
-        <p>Carregando...</p>
+        <Spinner />
       </div>
     );
   }

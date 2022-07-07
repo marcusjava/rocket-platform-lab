@@ -1,10 +1,10 @@
-<img src="src/assets/rocket1.png"/><img src="src/assets/rocket2.png"/>
+<img src="src/assets/rocket1.png"/>
 
 # Welcome to Rocketseat Ignite Lab Plataform React App
 
----
+https://badgen.net/badge/icon/typescript?icon=typescript&label
 
-[types-url]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+---
 
 ## React Platform App
 
@@ -25,17 +25,22 @@ Online demo: https://rocket-platform-lab.vercel.app/
 
 ## Instalação
 
-- Clonar o repositorio - https://github.com/marcusjava/rocket-platform-lab
--
+- Clonar o repositorio do GitHub - https://github.com/marcusjava/rocket-platform-lab
+- Clonar o projeto do GraphCMS - https://app.graphcms.com/clone/fa3c992ec325407baa9046fe0a941a99?name=Ignite%20Platform
+- Criar arquivo .env.local com as seguintes variaveis
 
 ```js
+VITE_TOKEN_API = "Token do graphcms";
+VITE_API_URL = "URL do projeto do graphcms";
+```
+
+```js
+npm create vite@latest
+
 npm install
 
 npm run dev
 ```
-
-**Note:** Above example will always fetch the latest version. To fetch a specific version, use `https://unpkg.com/react-dropdown-tree-select@<version>/dist/...`
-Visit [unpkg.com](https://unpkg.com/#/) to see other options.
 
 ```
 

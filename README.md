@@ -1,6 +1,6 @@
 <img src="src/assets/rocket1.png"/>
 
-# Welcome to Rocketseat Ignite Lab Plataform React App
+# Bem vindo ao Rocketseat Ignite Lab Plataform React App
 
 https://badgen.net/badge/icon/typescript?icon=typescript&label
 
@@ -27,7 +27,7 @@ Online demo: https://rocket-platform-lab.vercel.app/
 
 - Clonar o repositorio do GitHub - https://github.com/marcusjava/rocket-platform-lab
 - Clonar o projeto do GraphCMS - https://app.graphcms.com/clone/fa3c992ec325407baa9046fe0a941a99?name=Ignite%20Platform
-- Criar arquivo .env.local com as seguintes variaveis
+- Criar arquivo .env.local com as seguintes variaveis:
 
 ```js
 VITE_TOKEN_API = "Token do graphcms";
@@ -40,8 +40,4 @@ npm create vite@latest
 npm install
 
 npm run dev
-```
-
-```
-
 ```

@@ -2,7 +2,7 @@
 
 # Bem vindo ao Rocketseat Ignite Lab Plataform React App
 
-!\[typescript\](https://badgen.net/badge/icon/typescript?icon=typescript&label)
+<img src="https://badgen.net/badge/icon/typescript?icon=typescript&label"/>
 
 ---
 

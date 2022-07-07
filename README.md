@@ -1,20 +1,21 @@
-# Rocketseat Ignite Lab Plataform React App
+<img src="src/assets/rocket1.png"/><img src="src/assets/rocket2.png"/>
+
+# Welcome to Rocketseat Ignite Lab Plataform React App
 
 ---
 
-[types-url]
+[types-url]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
 
-[types-url]: https://img.shields.io/npm/types/react-dropdown-tree-select.svg?style=flat-square
+## React Platform App
 
-## React Dropdown Tree Select
+Projeto desenvolvido durante a semana Ignite Lab realizada pela Rocketseat.
 
-A lightweight and fast control to render a select component that can display hierarchical tree data. In addition, the control shows the selection in pills and allows user to search the options for quick filtering and selection. Also supports displaying partially selected nodes.
+## Tecnologias utilizadas
 
-## Screenshot
-
-https://rocket-platform-lab.vercel.app/
-
-![animated demo screenshot](https://user-images.githubusercontent.com/781818/37562235-0ae9e9ec-2a3a-11e8-8266-b0e6b716d0d1.gif)
+- React
+- GraphQl
+- Typescript
+- TailwindCSS
 
 ## Demo
 
@@ -22,15 +23,15 @@ https://rocket-platform-lab.vercel.app/
 
 Online demo: https://rocket-platform-lab.vercel.app/
 
-## Install
+## Instalação
 
-### As NPM package
+- Clonar o repositorio - https://github.com/marcusjava/rocket-platform-lab
+-
 
 ```js
-npm i react-dropdown-tree-select
+npm install
 
-// or if using yarn
-yarn add react-dropdown-tree-select
+npm run dev
 ```
 
 **Note:** Above example will always fetch the latest version. To fetch a specific version, use `https://unpkg.com/react-dropdown-tree-select@<version>/dist/...`

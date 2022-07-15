@@ -49,8 +49,8 @@ export default function Inscricao() {
   return (
     <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
       {loading ? <Spinner /> : null}
-      <div className="w-full max-w-[1100px] flex items-center justify-between mx-auto mt-8">
-        <div className="max-w-[648px]">
+      <div className="px-4 md:w-full md:max-w-[1100px] md:flex items-center justify-between md:mx-auto mt-8">
+        <div className="md:max-w-[648px]">
           <Logo />
 
           <h1 className="text-[2.5rem] mt-8 leading-tight">
@@ -58,7 +58,7 @@ export default function Inscricao() {
             <strong className="text-blue-500">aplicação completa</strong>, do
             zero, com <strong className="text-blue-500">React</strong>
           </h1>
-          <p className="text-gray-200 mt-4 leading-relaxed">
+          <p className="text-gray-200 my-4 leading-relaxed font-bold text-xl">
             Em apenas uma semana voçê irá dominar na pratica uma das tecnologias
             mais utilizadas no mercado e seu ecossistema
           </p>

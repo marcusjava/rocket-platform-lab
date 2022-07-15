@@ -22,6 +22,7 @@ const Video = ({ lessonSlug }: VideoProps) => {
     variables: { slug: lessonSlug },
   });
 
+  console.log({ data, lessonSlug });
   if (!data || !data.lesson) {
     return (
       <div className="flex-1">
@@ -32,8 +33,8 @@ const Video = ({ lessonSlug }: VideoProps) => {
 
   return (
     <div className="flex-1">
-      <div className="bg-black flex justify-center flex-col gap-2">
-        <div className="h-full w-full max-w-[1300px] max-h-[60vh] aspect-video mx-auto">
+      <div className="bg-black flex justify-center flex-col">
+        <div className="h-full w-full max-w-[1300px] aspect-video mx-auto">
           <Player>
             <Youtube videoId={data.lesson?.videoId} />
             <DefaultUi />
@@ -47,7 +48,7 @@ const Video = ({ lessonSlug }: VideoProps) => {
                 {data.lesson.description}
               </p>
               {data.lesson.teacher && (
-                <div className="flex items-center gap-4 mt-6">
+                <div className="flex items-center gap-4 mt-6 ">
                   <img
                     className="h-16 w-16 rounded-full border-2 border-blue-500"
                     src={data.lesson.teacher.avatarURL}
@@ -64,7 +65,7 @@ const Video = ({ lessonSlug }: VideoProps) => {
                 </div>
               )}
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col space-y-5">
               <ButtonLink variant="primary">
                 <DiscordLogo size={24} />
                 Comunidade do Discord
@@ -75,7 +76,7 @@ const Video = ({ lessonSlug }: VideoProps) => {
               </ButtonLink>
             </div>
           </div>
-          <div className="gap-8 mt-20 grid grid-cols-2">
+          <div className="gap-8 mt-20 grid lg:grid-cols-2 grid-rols-2">
             <a
               href=""
               className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover hover:bg-gray-600 transition-colors"

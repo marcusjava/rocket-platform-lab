@@ -14,11 +14,13 @@ interface ParamsProps {
 const Evento: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
 
+  const defaultSlug = "conheca-a-rocketseat";
+
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex flex-1 ">
-        {slug ? <Video lessonSlug={slug} /> : <div className="flex-1"></div>}
+      <main className="flex flex-col md:flex-1 md:flex-row">
+        <Video lessonSlug={slug || defaultSlug} />
 
         <Sidebar />
       </main>
